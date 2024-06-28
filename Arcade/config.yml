@@ -1,0 +1,31 @@
+Game:
+  Whitelist:
+  - arc
+  - arcade
+  ChatPrivate: true
+  LeaveMaterial: RED_BED
+ChatPrivate: true
+Whitelist:
+- arc
+- arcade
+JoinItems:
+  Party:
+    Enabled: false
+    Slot: 0
+    Material: NETHER_STAR
+    Name: '&aParty &7(Right Click)'
+AutoJoin:
+  Enabled: false
+  FallbackServer: Hub
+  ShutdownAtEnd: false
+MySQL:
+  Enabled: false
+  Host: 127.0.0.1
+  Database: base
+  Username: Fr33styler
+  Password: '12345'
+  Port: 3306
+Database:
+  Leaderboard: Arcade,-24.16,130.00,31.44,230.68,18.94
+  Toggler: Arcade,-22.42,130.50,23.43,-0.17,1.05
+  Spawn: Arcade,0.48,128.00,0.49,1.16,50.10

@@ -1,0 +1,140 @@
+showTo: all
+priority: 2
+
+showHeaderFooter: true
+header: |-
+  &bYou are playing on &e&lMC.EXAMPLE.NET
+  &7
+footer: |-
+  &7
+  &a&lActive Effects
+  &a${viewer effects_all}
+  &7
+  &d&lCookie Buff
+  &7${cookie_buff}
+  &7
+  &aRanks, Coins & More! &c&lSTORE.EXAMPLE.NET
+
+customPlaceholders:
+  cookie_buff:
+    !conditional
+    parameters: 1
+    condition: ${viewer player_has_permission_hyperenchants.mainmenu} == "yes"
+    true: "&f${viewer luckperms_expiry_time_cookie.booster}"
+    false: "&7Not active! Obtain booster cookies from the\n&7community shop in the hub."
+  afk:
+    !conditional
+    condition: ${player essentials_afk}
+    true: "&7 (Offline)"
+    false: ""
+  auctions:
+    !conditional
+    condition: ${viewer auctionmaster_own_auctions} >= 1
+    true: "&e&lAuctions:"
+    false: "&7"
+  auctions_own:
+    !conditional
+    condition: ${viewer auctionmaster_own_auctions} >= 1
+    true: "&f Auctioned Items: &6${viewer auctionmaster_own_auctions}"
+    false: "&7"
+  auctions_bids:
+    !conditional
+    condition: ${viewer auctionmaster_own_auctions} >= 1
+    true: "&f Bids Placed: &6${viewer auctionmaster_own_bids}"
+    false: "&7"
+  souls:
+    !conditional
+    condition: ${viewer souls_collected} >= 1
+    true: "&e&lFairy Souls:"
+    false: "&7"
+  souls_collected:
+    !conditional
+    condition: ${viewer souls_collected} >= 1
+    true: "&f Found: &e${viewer souls_collected}&f/&d${viewer souls_total}"
+    false: "&7"
+  island:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&b&lPlayer Island:"
+    false: "&7"
+  island2:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&f Owner: &a${viewer bskyblock_visited_island_owner}"
+    false: "&7"
+  island3:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&f Members: &9${viewer bskyblock_visited_island_members_count}&f/&9${viewer bskyblock_visited_island_members_max}"
+    false: "&7"
+  island4:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&f Guests: &a${viewer bskyblock_visited_island_visitors_count}"
+    false: "&7"
+  area:
+    !conditional
+    condition: ${viewer world} == "islands"
+    true: "&b&lArea: &7Private Island"
+    false: "&b&lArea: ${viewer regionplaceholders_current}"
+
+hiddenPlayers: VISIBLE_TO_ADMINS
+
+playerSets:
+  all_players: all
+
+type: FIXED_SIZE
+size: 80
+
+defaultIcon: colors/dark_gray.png
+defaultPing: 1
+
+components:
+- !table
+  columns:
+    0-1:
+    - {text: "&a&l       Players &f(${viewer server_online})       ", icon: "colors/green.png", ping: 0}
+    - {text: "&a&l       Players &f(${viewer server_online})       ", icon: "colors/green.png", ping: 0}
+    - !players
+      playerSet: all_players
+      playerOrder: vault_primary_group_weight desc, name asc
+      playerComponent: "${player vault_suffix}${player name}${afk}"
+      fillSlotsVertical: true
+      morePlayersComponent: {text: "&f... and ${other_count} others", icon: "colors/gray.png", ping: 0}
+    2:
+    - {text: "&3&l     Server Info", icon: "colors/aqua.png", ping: 0}
+    - {text: "${area}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fGems: &a${viewer customplaceholders_gems}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "${island}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${island2}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${island3}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${island4}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    -
+    - {text: "${auctions}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${auctions_own}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${auctions_bids}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "${souls}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "${souls_collected}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "&e&lEvent: &fNew Year", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fCurrent Year: &b${viewer mph_mytheriayear}", icon: "colors/dark_gray.png", ping: 0}
+    3:
+    - {text: "&6&l     Account Info", icon: "colors/gold.png", ping: 0}
+    - {text: "&e&lProfile: &aDefault", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f Purse: &6${viewer vault_eco_balance_commas}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f Bank: &6${viewer royaleeconomy_balance_bank}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: "&f Interest: &e${viewer royaleeconomy_interest_cooldown_not_detailed}", icon: "colors/dark_gray.png", ping: 0}
+    -
+    - {text: "&e&lAttributes:", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fHealth &c❤${viewer skills_health_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fDefense &a❇${viewer skills_defense_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fStrength &c❁${viewer skills_strength_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fSpeed &f✦${viewer skills_speed_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fCrit Chance &9☣${viewer skills_crit_chance_total}%", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fCrit Damage &9☠${viewer skills_crit_damage_total}%", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fIntelligence &b✎${viewer skills_intelligence_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fSea Creature &3α${viewer skills_sea_creature_chance_total}", icon: "colors/dark_gray.png", ping: 0}
+    - {text: " &fPet Luck &d♠${viewer skills_pet_luck_total}", icon: "colors/dark_gray.png", ping: 0}

@@ -1,0 +1,84 @@
+Items:
+  #Create as many items you want. REMEMBER EACH ITEM MUST HAVE A UNIQUE SLOT.
+  #IN CASE YOU ADD MORE THAN 1 ITEM FOR THE SAME SLOT.
+  #It will be read in order. SO MAKE SURE YOU ADD THE ITEM with higher priority first here.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  #FOR SECURITY REASONS DO NOT USE more than one item in the same slot if at least one of the items
+  #has "PLACEHOLDER" material.
+  #IMPORTANTTTTTTTTTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  PLAYER-HEAD:
+    Slot: 22
+    Dynamic-slot: 0
+    Permission: "none"
+    Material: "PROFILE_OWNER"
+    Custom-model-data: 0
+    Displayname: "&7%vault_prefix%{OWNER}&7's Profile"
+    Lore:
+    - "  &c❤ Health &f%formatter_number_format_{skills_health_total}% HP"
+    - "  &a❇ Defense &f%formatter_number_format_{skills_defense_total}%"
+    - "  &c❁ Strength &f%formatter_number_format_{skills_strength_total}%"
+    - "  &f✦ Speed &f%formatter_number_format_{skills_speed_total}%"
+    - "  &9☣ Crit Chance &f%formatter_number_format_{skills_crit_chance_total}%%"
+    - "  &9☠ Crit Damage &f%formatter_number_format_{skills_crit_damage_total}%%"
+    - "  &b✎ Intelligence &f%formatter_number_format_{skills_intelligence_total}%"
+    - ""
+    - "&6%math_1_({skills_farming_level}+{skills_mining_level}+{skills_combat_level}+{skills_foraging_level}+{skills_fishing_level}+{skills_enchanting_level}+{skills_alchemy_level})/150% Skill Avg. &8(non-cosmetic)"
+    - ""
+    - "&7Oldest Profile: &2%player_first_join_date%"
+    Close-on-click: false
+    Commands: []
+  VISIT:
+    Slot: 15
+    Permission: "none"
+    Material: "FEATHER"
+    Custom-model-data: 0
+    Displayname: "&aVisit Island"
+    Lore:
+    - "&eClick to visit!"
+    Close-on-click: true
+    Commands:
+    - "visit {TARGET}"
+  TRADE-REQUEST:
+    Slot: 16
+    Permission: "none"
+    Material: "EMERALD"
+    Custom-model-data: 0
+    Displayname: "&aTrade"
+    Lore:
+    - "&eClick to trade!"
+    Close-on-click: true
+    Commands:
+    - "trade {TARGET}"
+  INVITE-TO-ISLAND:
+    Slot: 24
+    Permission: "none"
+    Material: "POPPY"
+    Custom-model-data: 0
+    Displayname: "&aInvite to Island"
+    Lore:
+    - "&eClick to invite!"
+    Close-on-click: true
+    Commands:
+    - "is team invite {TARGET}"
+  CO-OP-REQUEST:
+    Slot: 25
+    Permission: "none"
+    Material: "DIAMOND"
+    Custom-model-data: 0
+    Displayname: "&aCo-op Request"
+    Lore:
+    - "&eSend a co-op request!"
+    Close-on-click: true
+    Commands:
+    - "is team coop {TARGET}"
+  VAULT:
+    Slot: 33
+    Permission: "none"
+    Material: "ENDER_CHEST"
+    Custom-model-data: 0
+    Displayname: "&aPersonal Vault"
+    Lore:
+    - "&eClick to view!"
+    Close-on-click: true
+    Commands:
+    - "ec {TARGET}"
