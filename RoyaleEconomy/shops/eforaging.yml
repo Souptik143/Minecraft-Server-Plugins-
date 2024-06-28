@@ -1,0 +1,152 @@
+title: '&aEnchantedforaging'
+permission-to-open: none
+background-color: 6
+items:
+  spruce:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SPRUCE_LOG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Spruce Log"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  birch:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BIRCH_LOG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Birch Log"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  jungle:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: JUNGLE_LOG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Jungle Log"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  acacia:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ACACIA_LOG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Acacia Log"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  oak:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OAK_LOG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Oak Log"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  darkoak:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DARK_OAK_LOG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Dark Oak Log"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

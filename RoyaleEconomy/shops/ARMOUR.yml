@@ -1,0 +1,396 @@
+title: '&aARMOURS'
+permission-to-open: none
+background-color: 15
+items:
+  Helmet:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"Tarantula
+          Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+100 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+80"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+100"}],"text":""}'
+        - '{"extra":[{"text":"           "}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Octodexterity"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Every
+          4th strike, deal "},{"italic":false,"color":"red","text":"double"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"damage
+          "},{"italic":false,"color":"gray","text":"and apply Venom"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"reducing
+          healing by "},{"italic":false,"color":"dark_green","text":"40% "},{"italic":false,"color":"gray","text":"for"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"4
+          "},{"italic":false,"color":"gray","text":"seconds."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Piece
+          Bonus: Spider Bulwark"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Kill
+          Spiders to accumulate"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"defense
+          against them."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Piece
+          Bonus: "},{"italic":false,"color":"green","text":"+0Φ"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Next
+          Upgrade: "},{"italic":false,"color":"green","text":"+0Φ "},{"italic":false,"color":"gray","text":"("},{"italic":false,"color":"green","text":"x"},{"italic":false,"color":"gray","text":"/"},{"italic":false,"color":"red","text":"y"},{"italic":false,"color":"gray","text":")"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Extra
+          Bonus: Radioactive"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"+1%
+          Crit Damage "},{"italic":false,"color":"gray","text":"per "},{"italic":false,"color":"red","text":"10
+          Strength"},{"italic":false,"color":"gray","text":"."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"EPIC
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/y3LwQnCQBRF0QcjEjSubCBNpAOFbCIubOCZ/OiHmYnM/IBWlD6szAjZHu7dAQXKMelDI/2FQXD8zvWNidEmz6oRH8Qc9ndmOckgMQuA6yot3y0jF+kLbBOT2geb80s7h7Kbso1BTYL2SwGHw/o0Qm/P/4UfU/6uwIIAAAA=
+        color:
+          ==: Color
+          RED: 0
+          BLUE: 0
+          GREEN: 0
+    sellingValue: 1000.0
+    buyValue: 100000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  exampleItem:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Protector
+          Dragon Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+70 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+135"}],"text":""}'
+        - '{"extra":[{"text":"           "}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Protective Blood"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Increase
+          the defense of each"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"armor
+          piece by "},{"italic":false,"color":"green","text":"+1% "}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Defense
+          "},{"italic":false,"color":"gray","text":"for each missing"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"percent
+          of HP."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"LEGENDARY
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        Damage: 3
+        internal: H4sIAAAAAAAA/01QvU6DUBj9tGoq1sHJxMH4BqKVGgdjjFgLKaAtYiEut+3X8nMvNJeLlg6uxklfwMTNwc3EzckH8B18E6+b2/kdzlEAqlDLeDSOUkJtwhA2vl4b5zwTOBAZ39I5GWfpVgspQ1GBlT7JUccRpjkCwL0CtW5SUCoLo4iiAopEE+QiwnwZqgKnouCYKzI7V4VFj9AC4QNLUw16oTrsmXRQGg3J3a5KHSOe7BupV/ZPjIbBpN86brTLg39ZTZArjfp1MwzSi6LPPLVd71BsdXYG7PImiK26715qNrMTf9aJLLcZOm6iOmcB811rz5+Zoe/asR0nqsU8ZusXWnBl3EpPc3SjdPRmYu2e7vixF1puhwZxEAZd82DUUw+vAVZg3hjKJQvvny9Pj0f6w/PP2t332/q2/HCJEx6JEpbbOMZ0SHhZgdqgyEXGIoEs+uttVmD17z+LTFtIqAil1oRfhfDwx4MBAAA=
+    sellingValue: 0.0
+    buyValue: 80000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  helmet:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Wise
+          Dragon Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+70 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+110"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Intelligence:
+          "},{"italic":false,"color":"green","text":"+125"}],"text":""}'
+        - '{"extra":[{"text":"           "}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Wise Blood"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Abilities
+          have "},{"italic":false,"color":"green","text":"2/3 "},{"italic":false,"color":"gray","text":"of
+          the"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"mana
+          cost"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"LEGENDARY
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        Damage: 3
+        internal: H4sIAAAAAAAA/02QMU/CUBSFr6IGCo5uDiRuThUEw+CgUqENfdWCQBtj8iiX8uC9QtpXoSTq5shvcDNxN3H2V/hzrAmD27n3fPck5yoAWSjMQuazgHJCBcLB93u1xyIs1kPqz4JiE7lAmYH8gEZYxxEGEQJAoEChPY05vwlnI8ZRASVVcwwlwygHWYlLGYcYKSm7lYXdLuUxwicmhur2x+qwb3Av0avp3Gmr3NIn8zM96CaDK72qi9RvXlRbSe0fW5G0V+FO2Ri7wW08EF21VbY5Nu0TT9w9kp6WWB1fdUrOgpRM1WrYY6vjJaTuL4nQTl3hLKy6ozrCLFkNY+J2nAppEJ7qKRE2Myfa0hR6yRHawlxpC7K6nLptozbqq+f3AHnY1odpk53nr/6Rfnj1tn75efhYN15h8xiTLk0a0BR5ysJeSEMmE8i10MdgSMMkAwUvjuRMMImC/SUdZ2B/c9hEyuU43V3DL7+dHP6QAQAA
+    sellingValue: 5
+    buyValue: 80000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  sdh:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Strong
+          Dragon Helmet"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Strength:
+          "},{"italic":false,"color":"red","text":"+25"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Health:
+          "},{"italic":false,"color":"green","text":"+70 HP"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Defense:
+          "},{"italic":false,"color":"green","text":"+110"}],"text":""}'
+        - '{"extra":[{"text":"           "}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Full
+          Set Bonus: Strong Blood"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Improves
+          "},{"italic":false,"color":"blue","text":"Aspect of the End"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"≫
+          "},{"italic":false,"color":"red","text":"+75 Damage"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Instant
+          Transmission:"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"≫
+          "},{"italic":false,"color":"green","text":"+2 "},{"italic":false,"color":"gray","text":"teleport
+          range"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"≫
+          "},{"italic":false,"color":"green","text":"+3 seconds"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"≫
+          "},{"italic":false,"color":"red","text":"+5 Strength "},{"italic":false,"color":"gray","text":"on
+          cast"}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"LEGENDARY
+          HELMET"}],"text":""}'
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        Damage: 3
+        internal: H4sIAAAAAAAA/02QQXLTQBBFGwzEUcyaYkPlCLKETYUqFgoOsVyWjGJb9qjYjO22NPLMKDUaJRkXWzZcgCPkBLlADpFLsOAKjFmx6u7Xvxf9HIA2dCrFciYpj6lAePN4359qVcn8dKBoXsnTIXKBugUnK1rjALcoawQA6UBnums4/6qqLePogGO7a1SaYX0MbY13ulFYOzb7rA0vU8obhAc0IzdbFu5mOeJrE/btPJu6fBKW1x9CmZrV57AfCrsfBv2xOfsv29N00ePEHxWZTJqVSN2xf8VxeNVdi/lNtsh22SzoxWWwJ2VgojJlk0Vi4ssLP/IubrNBLCJvvicLYiazoDu5TNx4UJTES3zizbtkT2xNbiORFaQ8F1lJ3kdsdLZdup++AZzA83BjP3nx/ehP+uSf735+/LX+/cN/ZwW+UlQxbeB4jDnKDVWmBZ11U+tKMI2CHe48iw7+rFqUuS4setuC1wcU0bshUv6PfYG/ZQaSDZMBAAA=
+    sellingValue: 5
+    buyValue: 80000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  hdh:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  nh:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  sh:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  tc:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  pdc:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  wdc:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  sdc:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  hdc:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  nc:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  sc:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  tl:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  pdl:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  wdl:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIRT
+    sellingValue: 5
+    buyValue: 10
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

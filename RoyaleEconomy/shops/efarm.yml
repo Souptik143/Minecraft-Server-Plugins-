@@ -1,0 +1,489 @@
+title: '&aEnchantedFood'
+permission-to-open: none
+background-color: 3
+items:
+  egg:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: EGG
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Egg"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Used
+          to craft low-rarity"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"pets."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  sugar:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SUGAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Sugar"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  bakedpotato:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: BAKED_POTATO
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Baked Potato"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYOBg4MkvykzPzEvM8UvMTWWQPLQ80TUvOSMxryQ1RcEpMRtIBuSXJJbkMwAAOvB8/y4AAAA=
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  sugarcane:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SUGAR_CANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Sugar Cane"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  paper:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Paper"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  melonslice:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MELON_SLICE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Melon"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  melonblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: MELON
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Melon Block"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 180000.0
+    buyValue: 200000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  haybale:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: HAY_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Hay Bale"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYOBg4MkvykzPzEvM8UvMTWUQPbQ80TUvOSMxryQ1RcEjsVLBKTEnlQEAYPEg6yoAAAA=
+    sellingValue: 1500.0
+    buyValue: 2000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  pumpkin:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PUMPKIN
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Pumpkin"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYOBg4MkvykzPzEvM8UvMTWUQObQ80TUvOSMxryQ1RSGgNLcgOzOPAQB/ENl2KQAAAA==
+    sellingValue: 1500.0
+    buyValue: 2000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  carrot:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CARROT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Carrot"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYOBg4MkvykzPzEvM8UvMTWUQPrQ80TUvOSMxryQ1RcE5sagov4QBAKefe7coAAAA
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  goldencarrot:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLDEN_CARROT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Golden Carrot"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYOBg4MkvykzPzEvM8UvMTWWQOrQ80TUvOSMxryQ1RcE9PyclNU/BObGoKL+EAQD99cCaLwAAAA==
+    sellingValue: 30000.0
+    buyValue: 40000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  glisteringmelon:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GLISTERING_MELON_SLICE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Glistering Melon"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"COMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 8000.0
+    buyValue: 10000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  feather:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: FEATHER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Feather"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  chicken:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CHICKEN
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Raw Chicken"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+    give-item-on-buy: false
+    exclusive: false
+  cactus:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: CACTUS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Cactus"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  leather:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LEATHER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Leather"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  porchop:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: PORKCHOP
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Raw Porkchop"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  rabbitfoot:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: RABBIT_FOOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Rabbit''s Food"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

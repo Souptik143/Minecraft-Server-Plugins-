@@ -1,0 +1,508 @@
+title: '&aEnchantedmining'
+permission-to-open: none
+background-color: 5
+items:
+  stone:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COBBLESTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Cobblestone"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  coal:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Coal"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  iron:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Iron Ingot"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  gold:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_INGOT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Gold Ingot"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 1000.0
+    buyValue: 1200.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  lapis:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LAPIS_LAZULI
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Lapis Lazuli"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 6800.0
+    buyValue: 7000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  redstone:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Redstone"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 6400.0
+    buyValue: 7000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  emerald:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: EMERALD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Emerald"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 6400.0
+    buyValue: 7000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  diamond:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Diamond"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 19000.0
+    buyValue: 22000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  obsidian:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: OBSIDIAN
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Obsidian"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 7000.0
+    buyValue: 9000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  flint:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: FLINT
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Flint"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 900.0
+    buyValue: 1200.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  netherrack:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: NETHERRACK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Netherrack"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 900.0
+    buyValue: 1200.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  sand:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: SAND
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Sand"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  endstone:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: END_STONE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          End Stone"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 800.0
+    buyValue: 1000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  ice:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: ICE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Ice"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 500.0
+    buyValue: 700.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  diamondblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: DIAMOND_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Diamond"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 3600000.0
+    buyValue: 3700000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  emeraldblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: EMERALD_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Emerald"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 1150000.0
+    buyValue: 1200000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  redstoneblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: REDSTONE_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Redstone"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 1150000.0
+    buyValue: 1200000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  lapisblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: LAPIS_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Lapis Lazuli"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 1150000.0
+    buyValue: 1200000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  goldblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: GOLD_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Gold"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 200000.0
+    buyValue: 220000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  ironblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: IRON_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Enchanted
+          Block of Iron"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"RARE"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 200000.0
+    buyValue: 220000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64
+  coalblock:
+    itemStack:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2586
+      type: COAL_BLOCK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Enchanted
+          Block of Coal"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"UNCOMMON"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+    sellingValue: 200000.0
+    buyValue: 220000.0
+    detailed: true
+    amount1: 1
+    amount2: 5
+    amount3: 20
+    amount4: 32
+    amount5: 64

@@ -1,0 +1,113 @@
+backButtons: true
+renameGUI:
+  title: 'Rename:'
+anvilGUI:
+  size: 54
+  title: Anvil
+  items:
+    errorItem:
+      material: BARRIER
+      amount: 1
+      title: '&cError'
+      lore:
+      - '%error_information%'
+      isGlowing: false
+    infoItem:
+      material: BARRIER
+      amount: 1
+      title: '&cAnvil'
+      lore:
+      - '&7Place a target item in the left'
+      - '&7slot and a sacrifice item in the'
+      - '&7right slot to combine'
+      - '&7Enchantments!'
+      isGlowing: false
+    combineItemsNormal:
+      material: ANVIL
+      amount: 1
+      title: '&aCombine Items'
+      lore:
+      - '&7Combine the items in the slots'
+      - '&7to the left and right below.'
+      isGlowing: false
+    nameTag:
+      enabled: false
+      material: NAME_TAG
+      amount: 1
+      title: '&aRename Name Tag'
+      lore:
+      - '&7Modify name of Name Tags.'
+      isGlowing: false
+      slot: 31
+    combineItemsToFuse:
+      material: ANVIL
+      amount: 1
+      title: '&aCombine Items'
+      lore:
+      - '&7Combine the items in the slots'
+      - '&7to the left and right below.'
+      - ''
+      - '&7Cost'
+      - '&3%cost_amount% Exp Levels'
+      - ''
+      - '&eClick to combine!'
+      isGlowing: true
+    itemPreview:
+      material: STONE
+      amount: 1
+      title: '%item_name%'
+      lore:
+      - '%item_description%'
+      - ''
+      - '&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+      - '&aThis is the item you will get.'
+      - '&aClick the &cANVIL BELOW &ato'
+      - '&acombine.'
+      isGlowing: false
+    itemToUpgrade:
+      amount: 1
+      title: '&6Item To Upgrade'
+      lore:
+      - '&7The item you want to upgrade'
+      - '&7should be placed in the slot on'
+      - '&7this side.'
+      isGlowing: false
+    itemToSacrifice:
+      amount: 1
+      title: '&6Item To Sacrifice'
+      lore:
+      - '&7The item you are sacrificing in'
+      - '&7order to upgrade the item on the'
+      - '&7left should be placed in the slot'
+      - '&7on this side.'
+      isGlowing: false
+    emptyMaterial: RED_STAINED_GLASS_PANE
+    succesMaterial: LIME_STAINED_GLASS_PANE
+buttons:
+  nextPage:
+    material: ARROW
+    amount: 1
+    title: '&eNext Page'
+    lore: []
+    slot: 50
+    isGlowing: false
+  previousPage:
+    material: ARROW
+    amount: 1
+    title: '&ePrevious Page'
+    lore: []
+    slot: 48
+    isGlowing: false
+  background:
+    material: BLACK_STAINED_GLASS_PANE
+    amount: 1
+    title: ' '
+    lore: []
+    isGlowing: false
+  closeButton:
+    material: BARRIER
+    amount: 1
+    title: '&cClose'
+    lore: []
+    slot: 49
+    isGlowing: false
